@@ -1,0 +1,15 @@
+{
+  "name": "cli-csv2sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-to-sql-script": "git+https://github.com/mreis1/csv-to-sql-script.git",
+    "yargs": "github:yargs/yargs"
+  }
+}
