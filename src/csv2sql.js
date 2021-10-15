@@ -25,12 +25,12 @@ yargs(hideBin(process.argv))
         describe: 'When true a create table script will be generated (ignored for update script)',
         default: null,
         type: 'boolean',
-        alias: 'ct'
+        alias: 'c'
       })
       .positional('updateColumn', {
         describe: 'The column that will be used in the update where statement',
         default: null,
-        alias: 'uc'
+        alias: 'u'
       })
   }, (argv) => {
     if (argv.verbose) console.info(`start server on :${argv.port}`)
